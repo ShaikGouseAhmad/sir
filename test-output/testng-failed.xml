@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser1" value="chrome"/>
+  <listeners>
+    <listener class-name="Sir.com.util.FrameWorkListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Sir.com.TestScripts.TestScript1Login">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Sir.com.TestScripts.TestScript1Login -->
+      <class name="Sir.com.TestScripts.TestScript3">
+        <methods>
+          <include name="testsetCalender"/>
+        </methods>
+      </class> <!-- Sir.com.TestScripts.TestScript3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

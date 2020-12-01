@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browser1" value="chrome"/>
+<listeners>
+<listener class-name="Sir.com.util.FrameWorkListener"/>
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="Sir.com.TestScripts.TestScript1Login"/>
+      <class name="Sir.com.TestScripts.TestScript2"/>
+      <class name="Sir.com.TestScripts.TestScript3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
